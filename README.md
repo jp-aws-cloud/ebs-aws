@@ -32,3 +32,5 @@ Volume types are divided into two major categories: `1. SSD-backed storage` for 
 2. Create a user with administrative access
 3. (Optional) Create and use a customer managed key for Amazon EBS encryption
 4. (Optional) Enable block public access for Amazon EBS snapshots
+
+> IOPS: Input/output operations per second (IOPS, pronounced eye-ops) is an input/output performance measurement used to characterize computer storage devices like hard disk drives (HDD), solid state drives (SSD), and storage area networks (SAN).
