@@ -24,3 +24,11 @@ Volume types are divided into two major categories: `1. SSD-backed storage` for 
 - Data availability and durability — io2 Block Express volumes provide 99.999% durability with an annual failure rate of `0.001%`. Other volume types provide 99.8% to 99.9% durability with an annual failure rate of 0.1% to 0.2%. Additionally, volume data is automatically replicated across multiple servers in an Availability Zone to prevent the loss of data from the failure of any single component.
 
 - Data archiving — EBS Snapshots Archive provides a low-cost storage tier to archive full, point-in-time copies of EBS Snapshots that you must retain for `90 days` or more for regulatory and compliance reasons, or for future project releases.
+
+## Set up for Amazon EBS
+
+### Tasks
+1. Sign up for an AWS account
+2. Create a user with administrative access
+3. (Optional) Create and use a customer managed key for Amazon EBS encryption
+4. (Optional) Enable block public access for Amazon EBS snapshots
